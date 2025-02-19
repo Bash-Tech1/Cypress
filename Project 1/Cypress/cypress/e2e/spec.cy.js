@@ -1,4 +1,5 @@
 //write ur tests here
+
 describe("Test 1: Login Validation", () => {
   it("Test 1.1", () => {
     cy.visit("http://localhost:3000");
@@ -55,3 +56,6 @@ it("Test 4: User Interactions", function () {
   cy.get('[data-cy="right-click-area"]').should("be.visible");
   /* ==== End Cypress Studio ==== */
 });
+=======
+//u should write all tests here!!!
+
